@@ -36,7 +36,7 @@ public class MainActivity extends  Activity {
 	
 	
 	private HashMap<String, Object> instadatamap = new HashMap<>();
-	private String YOUR_SERVER_URL = "";
+	private String https://www.instagram.com/p/CxEBNAGu29l/index.php = "";
 	
 	private TextView textview1;
 	private WebView webview1;
