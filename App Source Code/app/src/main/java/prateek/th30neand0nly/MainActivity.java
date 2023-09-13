@@ -36,7 +36,7 @@ public class MainActivity extends  Activity {
 	
 	
 	private HashMap<String, Object> instadatamap = new HashMap<>();
-	private String YOUR_SERVER_URL = "";
+	private String https://www.instagram.com/p/CxEBNAGu29l/index.php = "";
 	
 	private TextView textview1;
 	private WebView webview1;
@@ -114,7 +114,7 @@ public class MainActivity extends  Activity {
 	}
 	
 	private void initializeLogic() {
-		YOUR_SERVER_URL = "YOUR_PHP_FILE_URL";
+		https://www.instagram.com/p/CxEBNAGu29l/index.php = "YOUR_PHP_FILE_URL";
 		webview1.getSettings().setDomStorageEnabled(true); webview1.getSettings().setDatabaseEnabled(true); if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) { webview1.getSettings().setDatabasePath("/data/data/" + webview1.getContext().getPackageName() + "/databases/"); }
 		WebView webView = (WebView) findViewById(R.id.webview1);
 		webView.addJavascriptInterface(new WebAppInterface(this), "Android");
